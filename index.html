@@ -8,13 +8,15 @@
 
 	<!-- import jquery for bootsrap -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-		
+	<script src="script/base.js" ></script>
+
 	<!-- bootstrap css and javascript import -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
 	<!-- font awesome import -->
 	<script src="https://use.fontawesome.com/f0c3b86930.js"></script>
+
 
 	<!-- google font import -->
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -27,10 +29,11 @@
 </head>
 
 <body>
+	<!--Navigation Bar-->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Home</a></li>
+				<li><a href="#home">Home</a></li>
 				<!--<li><a href="aboutme">About Me</a></li>-->
 				<li><a href="#education">Education</a></li> 
 				<li><a href="#experience">Experience</a></li> 
@@ -41,105 +44,113 @@
 	</nav>
 
 	<div class="container-fluid">
+		<!-- Home div -->
+		<div class = "row evendiv" id="home">
+			<div class="col-xs-4 img-left">
+				<img src="image/profile.png">
+			</div>
+			<div class = "col-xs-8 title" >
+				<h1>Parth Shah <br>
+					<a href="mailto:shahpart8891@gmail.com">shahparth8891@gmail.com</a></h1>
+				</div>
+			</div>
 		
-		<div class = "row evendiv" >
-			<div class = "col-sm-4">
-				<div class = "vdivideleft">
-					<img src="image/profile.png">
-				</div>
-			</div class = "col-sm-8">
-				<div>
-					<h2>Parth Shah <br>
-					<a href="mailto:shahpart8891@gmail.com">shahparth8891@gmail.com</a></h2>
-				</div>
-			</div>
-		</div>
-		<a name="education"></a>
-		<div class = "row evendiv">
+
+		<!-- Education div -->
+		<div class = "row evendiv" id="education">
 			
-			<div class= "col-sm-8 data-left">
-				<h3>University of Bridgeport</h3>
-				<p>Master of Science <br>
-				Major: Computer Science <br>
-				Expected Graduation: Dec-2016
-				</p>
-				<br>
-				<h3>Gujarat Technological University</h3>
-				<p>Bachelor of Engineering<br>
-				Major: Computer Engineering <br>
-				Graduated: May-2012</p>
+			<div class= "col-xs-8 data-left">
+				<div class ="f-left">
+					<h3>University of Bridgeport</h3>
+					Master of Science <br>
+					Major: Computer Science <br>
+					Expected Graduation: Dec-2016
+					<br>
+					<h3>Gujarat Technological University</h3>
+					Bachelor of Engineering<br>
+					Major: Computer Engineering <br>
+					Graduated: May-2012
+				</div>
 			</div>
-			<div class= "col-sm-4 title">
+			<div class= "col-xs-4 title">
 				<h2>Education</h2>
 			</div>
 		</div>
-		<a name="experience"></a>
-		<div class = "row evendiv">
-			
-			<div class= "col-sm-4 title">
+
+		<!-- Experience div -->
+		<div class = "row evendiv" id="experience">
+
+			<div class= "col-xs-4 title">
 				<h2>Experience</h2>
 			</div>
-			<div class= "col-sm-8 data-right">
+			<div class= "col-xs-8 data-right">
+			<div class ="f-left">
 				<h3>University of Bridgeport</h3>
 				<p>Graduate Research Assistant<br>
-				Project: Automatic gait balance detection system <br>
-				Time Duration: Jan-2015 - Present 
+					Project: Automatic gait balance detection system <br>
+					Time Duration: Jan-2015 - Present 
 				</p>
 				<br>
 				<h3>IBM India</h3>
 				<p>Application Developer<br>
-				Job Role: TIBCO Developer<br>
-				Time Duration: Dec-2012 - Dec-2014</p>
+					Job Role: TIBCO Developer<br>
+					Time Duration: Dec-2012 - Dec-2014</p>
+				</div>
+				</div>
 			</div>
-			
-		</div>
-		<a name="projects"></a>
-		<div class = "row evendiv">
-			
-			<div class= "col-sm-8 data-left">
-				<h3>NYC Taxi Data Analysis</h3>
-				<p>University of Bridgeport '15</p>
-				<br>
-				<h3>Android Applications</h3>
-				<p>Freelancing ’12-‘14</p>
-				<br>
-				<h3>Penguin Download Manager</h3>
-				<p>GTU ‘12</p>
-			</div>
-			<div class= "col-sm-4 title">
-				<h2>Projects</h2>
-			</div>
-		</div>
-		<a name="contactme"></a>
-		<div class = "row evendiv">
-			
-			<div class= "col-sm-4 title">
-				<h2>Contact Me</h2>
-			</div>
-			<div class= "col-sm-8 data-right">
-				<h3>Parth Shah</h3>
-				<p>170, Lafayette Street<br>
-				Bridgeport, CT-06604<br>
-				Email: <a href="mailto:shahpart8891@gmail.com">shahparth8891@gmail.com</a><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:parshah@my.bridgeport.edu">parshah@my.bridgeport.edu</a>
-				<br>
-				Contact No: +16313369989
-				</p>
 
-				<h3>Professional Profiles</h3>
-				<p>				
-				<a href="https://www.linkedin.com/in/parthshah8891" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				<a href="https://github.com/parth8891/" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-				</p>
-				<h3>Social Profiles</h3>
-				<p>
-				<a href="https://www.facebook.com/parth8891" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/parth8891/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				<a href="https://plus.google.com/u/0/+Parthshah8891/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-				</p>			
+			<!-- Projects div -->
+			<div class = "row evendiv" id="projects">
+
+				<div class= "col-xs-8 data-left">
+				<div class ="f-left">
+					<h3>NYC Taxi Data Analysis</h3>
+					<p>University of Bridgeport '15</p>
+					<br>
+					<h3>Android Applications</h3>
+					<p>Freelancing ’12-‘14</p>
+					<br>
+					<h3>Penguin Download Manager</h3>
+					<p>GTU ‘12</p>
+					</div>
+				</div>
+				<div class= "col-xs-4 title">
+					<h2>Projects</h2>
+				</div>
 			</div>
-			
-		</div>
+
+			<!-- Contact Me div -->
+			<div class = "row evendiv" id="contactme">
+
+				<div class= "col-xs-4 title">
+					<h2>Contact Me</h2>
+				</div>
+				<div class= "col-xs-8 data-right">
+					<div class ="f-left">
+					<h3>Parth Shah</h3>
+					<p>170, Lafayette Street<br>
+						Bridgeport, CT-06604<br>
+						Email: <p><a href="mailto:shahpart8891@gmail.com">shahparth8891@gmail.com</a><br>
+						<a href="mailto:parshah@my.bridgeport.edu">parshah@my.bridgeport.edu</a></p>
+						<br>
+						Contact No: +16313369989
+					</p>
+
+					<h3>Professional Profiles</h3>
+					<p>				
+						<a href="https://www.linkedin.com/in/parthshah8891" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="https://github.com/parth8891/" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+					</p>
+					<h3>Social Profiles</h3>
+					<p>
+						<a href="https://www.facebook.com/parth8891" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/parth8891/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/u/0/+Parthshah8891/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					</p>			
+					</div>
+				</div>
+
+			</div>
 
 		<!--<h1>Roger Zhou</h1>
 		<a href="https://github.com/rogerjiezhou"><i class="fa fa-github" aria-hidden="true"></i></a>

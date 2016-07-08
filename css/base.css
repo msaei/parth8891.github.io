@@ -1,85 +1,69 @@
-/*body {
-	background-color : #ecf0f1;
-	font-family : 'Source Sans Pro',sans-serif;
+body { 
+	
+	height : 100%;
+
+	font-size: 20px;
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 400;
+	
+	background-image:url("./../image/noisy.gif");
 }
 
-#bCard {
-	max-width : 50%;
-	padding : 20px;
-	background-color : #ffffff;
-	box-shadow : 5px 5px rgba(0,0,0,0.1);
-	}*/
+h3{
+	color: #3385ff;
+}
 
-	body { 
-		padding-top: 50px;
-		font-size: 20px;
-		font-family: "Josefin Sans";
-		font-style: normal;
-		font-weight: 400;
-		background-image:url("./../image/noisy.gif");
-	}
+i{
+	padding-right: 10px;
+	padding-left: 10px;
+}
 
-	h3{
-		color: #3385ff;
-	}
+img {
+	border-radius: 50%;
+	border : 5px solid #ecf0f1;
+	width : 50%;
+	max-width : 450px;
+}
 
-	i{
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-	.vdivideleft{
-		border-right: 5px;
-		padding-left: 25px;
-		
-	}
-	.odddiv{
-		background-color: #0050ff;
-		padding-top: 10px;
-		text-align: center;
-	}
+.img-left{
+	text-align: center;
+	border-right: 3px solid #ccc;
+}
 
-	.data-left{
-		text-align: left;
-		border-right: 3px solid #ccc;
-		padding-left: 200px;
-	}
+.evendiv{	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
 
-	.data-right{
-		text-align: left;
-		border-left: 3px solid #ccc;
-		padding-left: 200px;
-	}
 
-	.title{
-		color: #0066ff;
-		text-align: center;
-	}
+.data-left{
+	display: inline-block;
+	text-align: center;
+	border-right: 3px solid #ccc;
+	/*padding-left: 200px;*/
+}
 
-	.title-left{
-		color: #3385ff;
-	}
+.data-right{
+	display: inline-block;
+	text-align: center;
+	border-left: 3px solid #ccc;
+	/*padding-left: 200px;*/
+}
 
-	.evendiv{
-		
-		padding-top: 100px;
-		padding-bottom: 100px;
-		text-align: center;
-	}
+.title{
+    text-align: center;
+}
 
-	.quote {
-		font-weight : 200;
-		font-style: italic;
-		size : 1.5rem;
-	}
+.title h3{
+	color: #0066ff;
+}
 
-	img {
-		border-radius: 50%;
-		border : 5px solid #ecf0f1;
-		width : 50%;
-		max-width : 450px;
-	}
+.f-left{
+	text-align: left;
+	display: inline-block;
+	top:50%;
+	left:50%;
+}
 
-	a:link
-	,a:visited { color : #ECFOF1}
-
-	a:hover {color : #2980b9}
